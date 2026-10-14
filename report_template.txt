@@ -1,0 +1,20 @@
+__________________ IMAGE - ANALYSIS -REPORT _________________
+--------------------- Metadata analysis ---------------------
+Image Name    : {}
+Image Type    : {}
+Size          : {}
+Image Mode    : {}
+Color Channels: {}
+Image Width   : {}
+Image Height  : {}
+Date created  : {}
+Date modified : {}
+_____________________ Analysis - report ____________________
+---------------------- LSB analysis ------------------------
+{}
+---------------------- MSB analysis ------------------------
+{}
+-------------------- Bit plane Analysis --------------------
+{}
+------------------ Spread Spectrum Analysis ----------------
+{}
