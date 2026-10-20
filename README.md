@@ -3,8 +3,6 @@
   - [Tech Stack](#tech-stack)
   - [Project Structure](#project-structure)
   - [Setup](#setup)
-    - [Windows](#windows)
-    - [Linux](#linux)
   - [Sample workflow](#sample-workflow)
   - [Detection Methodology](#detection-methodology)
   - [Limitations](#limitations)
@@ -14,7 +12,7 @@
 # Hidden Data in Image Detection Tool
 - By Devika , Rajalakshmi , Megha , Vaibhav 
 
-A web-app made using python to detect any possible hidden data in  an image .
+A web-app made using Python (NiceGUI) to detect and extract possible hidden data in  an image .
 
 ---
 ## Overview
@@ -26,7 +24,7 @@ This Webapp implements **Steganalysis** ; The forensic of detecting whether an i
 ## Tech Stack
 
 | Tool | Version |
-| --- | --- |
+| ------- | :-------: |
 | Python | 3.14.0+ |
 | NiceGUI | >=3.18.0 |
 | Pillow | >= 12.3.0 |
@@ -45,23 +43,28 @@ This Webapp implements **Steganalysis** ; The forensic of detecting whether an i
     |   |______gruendercoach-cat-8540772_1920.webp
     |   |______josch13-rose-320868_1920.jpg
     |   |______terex12-cat-7182671_1920.jpg
-    |____analysis_template.txt
+    |
+    |----------src\
+    |     |____image_analysis.py
+    |     |____report_template.txt
+    |
+    |____.gitignore
     |____app.py
-    |____image_analysis.py
     |____README.md
-    |____report_template.txt
+    |____requirements.txt
     |____settings.py
 ```
 ---
 ## Setup
-### Windows
-```powershell
+On Windows ;
+1. Go to the the repository .
+2. Click on Code
+![]()
+3. Click on Download ZIP
 ```
-### Linux
-```bash
-git clone 
-cd Hidden
+cd ...\Hidden-Data-in-Image-Detection-Tool
 pip install -r requirements.txt
+python app.py
 ```
 ---
 ## Sample workflow
@@ -69,6 +72,7 @@ pip install -r requirements.txt
 ## Detection Methodology
 ---
 ## Limitations
+
 ---
 ## Links
 Sample images obtained from [pixaby](https://pixabay.com/) .

@@ -1,0 +1,12 @@
+<p style='text-align:center;font-size:xx-large;'>IMAGE - ANALYSIS -REPORT</p>
+<p style='text-align:center;font-size:medium;'> Metadata analysis</p>
+
+* Image - name    : {}
+* Image - format  : {}
+* Image - size    : {}
+* Image - mode    : {}
+* Image - channel : {}
+* Image - width   : {}
+* Image - height  : {}
+* Image - date - created  : {}
+* Image - date - modified : {}
