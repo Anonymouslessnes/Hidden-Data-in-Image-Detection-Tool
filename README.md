@@ -8,7 +8,7 @@ A web-app made using Python (NiceGUI) to detect and extract possible hidden text
 
 Steganography is the practice of hiding secret data inside ordinary-looking files. Images are a common carrier — by modifying the **Least Significant Bit (LSB)** of each pixel value, an attacker can embed hidden text or data with almost no visible change to the image.
 
-This Webapp tool implements **Steganalysis** ; The forensic of detecting whether an image has been tampered with to conceal hidden data.
+This Webapp tool implements **Steganalysis** ; The forensic of detecting if an image has been tampered with to conceal hidden data.
 
 Steganalysis is performed by using the following python libraries PIL , NumPy . 
 
@@ -58,7 +58,7 @@ On Windows ;
 1. Go to the the repository .
 2. Click on Code .
 3. Click on Download ZIP
-```
+``` Powershell
 cd <Extracted Directory>\Hidden-Data-in-Image-Detection-Tool
 pip install -r requirements.txt
 python app.py
@@ -76,7 +76,6 @@ The RGB pixel data is then converted into a NumPy array and flattened into a one
 
 Each value represents an 8-bit red, green, or blue channel, allowing the tool to examine the image at the bit level.
 
-2. **** 
 3. **LSB(Least Significant Bit) Extraction**
 The tool examines the lower bits of each colour-channel value to search for data that may have been embedded using LSB steganography.
 It tests four extraction depths, from 1 to 4 bits per channel. 
@@ -120,7 +119,7 @@ Hidden data might also remain undetected if it was embedded using a different te
 
 The tool extracts only the number of bytes specified by the interpreted length field. If the header is damaged, the length incorrect, or if the format uses any additional  encoding, the extracted data may be incomplete or incorrectly interpreted. 
 
-Therefore, the tool should be treated as a candidate-recovery mechanism rather than a guarantee of complete message recovery.
+Therefore, the tool should be treated as a Text-recovery mechanism rather than a guarantee of complete message recovery.
 
 ---
 ## Real - World Applications
