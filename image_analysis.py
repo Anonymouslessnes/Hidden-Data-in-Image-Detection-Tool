@@ -97,16 +97,14 @@ class Image_analysis:
                         f"- Available bytes: {available}\n"
                     )
                     continue
-
                 message_bytes = payload[:25 + message_length]
-
                 try:
                     message = message_bytes.decode("utf-8")
                     text_decoded = True
                 except UnicodeDecodeError:
                     message = None
                     text_decoded = False
-                message=message.replace('\x00','')
+                message=message.replace('\x00','') if not None else None
                 message=message if len(message) else None
                 if message==None or not text_decoded:
                     continue

@@ -13,6 +13,3 @@ __pycache__/
 *.avif!/samples/
 !/samples/**
 !/samples/**/*.png
-!/samples/**/*.jpg
-!/samples/**/*.jpeg
-!/samples/**/*.webp
