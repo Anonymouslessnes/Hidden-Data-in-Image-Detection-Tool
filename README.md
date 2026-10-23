@@ -120,7 +120,7 @@ Hidden data might also remain undetected if it was embedded using a different te
 
 The tool extracts only the number of bytes specified by the interpreted length field. If the header is damaged, the length incorrect, or if the format uses any additional  encoding, the extracted data may be incomplete or incorrectly interpreted. 
 
-Therefore, the tool should be treated as a candidate-recovery mechanism rather than a guarantee of complete message recovery.
+Therefore, the tool should be treated as a Text-recovery mechanism rather than a guarantee of complete message recovery.
 
 ---
 ## Real - World Applications
