@@ -76,7 +76,6 @@ The RGB pixel data is then converted into a NumPy array and flattened into a one
 
 Each value represents an 8-bit red, green, or blue channel, allowing the tool to examine the image at the bit level.
 
-2. **** 
 3. **LSB(Least Significant Bit) Extraction**
 The tool examines the lower bits of each colour-channel value to search for data that may have been embedded using LSB steganography.
 It tests four extraction depths, from 1 to 4 bits per channel. 
