@@ -58,7 +58,7 @@ On Windows ;
 1. Go to the the repository .
 2. Click on Code .
 3. Click on Download ZIP
-```
+``` Powershell
 cd <Extracted Directory>\Hidden-Data-in-Image-Detection-Tool
 pip install -r requirements.txt
 python app.py
