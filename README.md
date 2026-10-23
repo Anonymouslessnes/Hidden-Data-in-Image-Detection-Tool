@@ -8,7 +8,7 @@ A web-app made using Python (NiceGUI) to detect and extract possible hidden text
 
 Steganography is the practice of hiding secret data inside ordinary-looking files. Images are a common carrier — by modifying the **Least Significant Bit (LSB)** of each pixel value, an attacker can embed hidden text or data with almost no visible change to the image.
 
-This Webapp tool implements **Steganalysis** ; The forensic of detecting whether an image has been tampered with to conceal hidden data.
+This Webapp tool implements **Steganalysis** ; The forensic of detecting if an image has been tampered with to conceal hidden data.
 
 Steganalysis is performed by using the following python libraries PIL , NumPy . 
 
